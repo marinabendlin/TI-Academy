@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Forms</title>
+</head>
+<style>
+	form{
+		width: 300px;
+		height: auto;
+		background-color: red;
+		border: 1px solid #000;
+		padding: 10px;
+		display: flex;
+		flex-direction: column;
+
+	}
+	.txt{
+		margin-top: 5px;
+		margin-bottom: 5px;
+		outline: none; 
+	}
+	.btn {
+		background-color: blue;
+		border: 1px solid red;
+	}
+	
+</style>
+<body>
+	<form name="frmCadastro" method="get">
+		<input class="txt" placeholder="digite um login" type="text" name="">
+		<input class="txt" placeholder="digite sua senha" type="password" name="">
+			<select name="fruta"> 
+				<option>selecione</option>
+				<option>banana</option>
+				<option>laranja</option>
+				<option>uva</option>
+				<option>pera</option>
+			</select>
+		<input type="checkbox" name="">
+		<input type="checkbox" name="">
+		
+		<input type="radio" name="teste" value="">
+		<input type="radio" name="teste" value="">
+		
+		<input type="radio" name="testes" value="">
+		<input type="radio" name="testes" value="">
+		
+		<input class="btn" type="submit" name="">
+	</form>
+	
+</body>
+</html>

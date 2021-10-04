@@ -1,0 +1,8 @@
+1. Como podemos definir uma URL, dê um exemplo.
+R= É um conjunto de elementos que corresponde ao protocolo html, endereço de dominio e as pastas agregadas.
+
+2. O que é  o HTTP?
+R= É um protocolo de comunicação entre o navegador e o servidro de pagina de internet.
+
+3. O que são vendors em CSS
+R= são prefixos.

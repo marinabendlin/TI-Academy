@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio_30</title>
+</head>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 80%;
+    height: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+fieldset{
+    padding: 20px;
+    border: 20px solid lavender;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lavender;
+}
+
+section#formulario{
+    margin: 30px auto;
+    padding: 5px;
+}
+form{
+    width: 80%;
+    height: auto;
+    padding: 20px;
+}
+label{
+    width: 80%;
+    height: auto;
+    display: block;
+    padding: 5px;
+    color: firebrick;
+}
+.txt{
+    width: 80%;
+    height: 30px;
+ 
+}
+.botao{
+    width: 100px;
+    height: 30px;
+    margin: 10px auto;
+    background-color: chocolate;
+    border-radius: 50px;
+    cursor: pointer
+}
+</style>
+<body>
+    <section>
+        <form name="formulario" method="post">
+        <fieldset>
+            <legend>FORMULARIO</legend>
+            <label for="emailUsuario">E-MAIL</label>
+            <input type="email" required placeholder="Digite seu e-mail" class="txt" id="emailUsuario" name="emailUsuario" value="">
+            <label for="senhaUsuario">SENHA</label>
+            <input type="password" requerid class="txt" id="senhaUsuario" name="senhaUsuario" value="">
+            <input type="submit" class="botao" name="enviarDados" value="enviar">
+        </fieldset>
+        </form>
+        
+    </section>
+    
+</body>
+</html>

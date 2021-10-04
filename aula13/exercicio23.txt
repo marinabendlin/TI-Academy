@@ -1,0 +1,10 @@
+//Exercício 23
+
+1. Dê uma definição para o elemento HTML <body>.
+R= É no bady que construímos toda a estrutura html da nossa página, é o corpo de todo o conteúdo da nossa página.
+
+2. É correto dizer que por padrão o todos os elementos HTML possuem uma definição de margin e padding?
+R= Não é correto, nem todos os elementos possuem definições pré estabelecidas.
+
+3. Uma tag <figure> pode conter várias tags <figurecaption>
+R= Não, cada figure só pode ter apenas uma figurecaption.

@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.paleta{
+    color: #212121; /*barras*/
+    color: #E53935; /*ações*/
+    color: #F9a825; /*botão*/
+    color: #f3f4f5; /*texto*/
+}
+:root{
+    --cor-border-geral:#212121;
+    --font-padrao: Helvetica, verdana;
+}
+
+header{
+    width: 100%;
+    height: 40px;
+    background-color: #212121; 
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+h1{
+    width: 30%;
+    color: yellow;
+    font-family: var(--font-padrao);
+    font-size: 18px;
+    margin-left: 20px;
+    border: 1px dashed gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    width: 35%;
+  
+    
+}
+li{
+    width: 100px;
+    height: 30px;
+    margin-left: 20px;
+    display: inline-block;
+    
+    
+}
+a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: var(--font-padrao);
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a.go:hover{
+    background-color: var(--font-cor-titulo);
+    color:#E53935;
+    transition: 1s;/*tempo*/
+}
+#menu-btn{
+    width: 100px;
+    height: 30px;
+    display: flex;
+    background-color: #F9a825;
+    border-radius: 15px;
+    justify-content: center;
+}
+
+main{
+    width: 100%;
+    padding: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+}
+div#texto{
+    width: 280px;
+    height: 120px;
+    background-color: #f3f4f5;
+    margin-right: 2px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+p{
+    padding: 20px;
+    font-size: 16px;
+    font-family: var(--font-padrao);
+    color: #000;
+    align-items: center; 
+}
+form{
+    width: 300px;
+    height: 250px;
+    border-left: 1px dashed gray;     
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+label{
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    font-size: 20px;
+}
+input{
+    width: 100%;
+}
+legend, #email-btn{
+    font-size: 14px;
+    font-family: var(--font-padrao);
+    color: #000;
+}
+#email-btn{
+    width: 80px;
+    height: 30px;
+    display: flex;
+    background-color: #F9a825;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+footer > h3 {
+    width: 100%;
+    height: 80px;
+    background-color: #212121;
+    padding: 30px;
+    color:#fff;
+    font-size: 16px;
+    font-family: var(--font-padrao);
+    justify-content: center;
+    text-align: center; 
+}

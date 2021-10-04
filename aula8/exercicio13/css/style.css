@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+div{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000;
+    background-color: rgb(0, 255, 200) ;
+}
+#segundaDiv{
+    background-color: rgba(0, 255, 200, 0.5) ;
+}

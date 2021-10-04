@@ -1,0 +1,8 @@
+1. Qual a diferença da unidade de medida em e rem? 
+R= Ambas são unidades de medida relacionadas ao elemento pai mas na unidade rem a origem vem do html.
+
+2. Como é criada uma variável no CSS? Dê um exemplo. 
+R=
+:root {
+    --nome_da_var: valor
+}

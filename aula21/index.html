@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: rgb(119, 119, 212);
+    }
+    main{
+        width: 80%;
+        height: auto;
+        margin: 50px auto;
+        border: 2px dotted rebeccapurple ;
+        background-color: #fff;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 18px;
+    }
+    h2{
+        padding: 5px 0 9px 0;
+        font-size: 0.8em;
+    }
+    .borda{
+        border: 1px solid red;
+    }
+    .margem{
+        margin-left: 30px;
+    }
+    .remove-bullet{
+        list-style: none;
+    }
+    li{
+        width: 100%;
+        height: auto;
+        background-color: rosybrown;
+        margin: 2px;
+    }
+    ol{
+        width: 200px;
+        height: auto;
+        margin: 30px;
+    }
+    div{
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+        background-color: seagreen;
+        margin: 5px;
+        display: inline-block;
+
+    }
+    a{
+        width: 100%;
+        height: 20px;
+        display: block;
+        border: 1px solid black;
+    }
+
+</style>
+<body>
+    <main>
+        <h2>LISTA DESORDENADA</h2>
+        <!--lista desordenada-->
+            <ul class="borda remove-bullet">
+                <li>aaa</li>
+                <li>bbb</li>
+                <li>ccc</li>
+                <li>ddd</li>
+                <li><a href="#">clique aqui</a></li>
+            </ul>
+
+        <h2>LISTA ORDENADA</h2>
+        <!--lista ordenada-->
+            <ol class="margem" type="I">
+                <li>aaa</li>
+                <li>bbb</li>
+                <li>ccc</li>
+                <li>ddd</li>
+                <li><a href="#">clique aqui</a></li>
+            </ol>
+
+        <h2>LISTA POR DEFINIÇÃO</h2>
+        <!--lista por definição-->
+            <dl>
+                <dt><strong>Fiat</strong></dt>
+                <dd>Tempra</dd>
+                <dd>Uno</dd>
+                <dt><strong>VW</strong></dt>
+                <dd>Gol</dd>
+                <dd>Fusca</dd>
+
+            </dl>
+
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+
+    </main>
+    
+</body>
+</html>

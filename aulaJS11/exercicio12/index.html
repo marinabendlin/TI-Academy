@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício12</title>
+</head>
+<script>
+/*Exercício 12
+
+1. Crie uma função que: 
+a) Conte quantos carácteres uma palavra possui
+b) Converta esta mesma palavra para MAIÚSCULA 
+c) Imprima somente a 3º letra desta palavra
+d) Troque esta mesma letra da palavra pela letra “X”
+
+Exemplo da saída da função: 
+Esta palavra tem 7 carácteres
+A palavra marcelo ficou MARCELO
+A letra  é o 3º carácter da palavra MARCELO
+MARCELO ficou MAXCELO   */
+
+let palavra = 'Marina';
+
+(function(){
+ 
+  document.write(`Esta palavra tem ${palavra.length} caracteres <br>`);
+  document.write(`Esta palavra  ${palavra} ficou ${palavra.toUpperCase()} <br>`);
+  document.write(`A letra '${palavra[2]}' é o 3º caracter da palavra ${palavra} <br>`);
+  document.write(`${palavra} ficou ${palavra.replace(palavra[2], 'X')}`);
+
+})(palavra)
+</script>
+<body>
+    
+</body>
+</html>

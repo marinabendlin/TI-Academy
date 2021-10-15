@@ -1,0 +1,7 @@
+﻿Exercicio 2
+
+1.Qual foi a principal finalidade do JS desde sua criação.
+R= dar mais interação entre a liguagem e os elementos html.
+
+2. Qual empresa originou o JS e quando isso aconteceu.
+R=  NetScap na decada de 90, LiveScript.

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício_Tabuada</title>
+</head>
+<script>
+/* Crie uma função que receba um parâmetro que receba um valor entre 1 e 10 e efetue a tabuada. 
+a) A função deverá verificar se o parâmetro é um número
+b) A função deverá verificar se o parâmetro está entre 1 e 10 
+c) O resultado sairá no console 
+*/
+window.onload=function(){ 
+    function tabuada(numero){
+    
+    let tabuada=0; 
+    
+       if( typeof numero !== 'number' ){
+            alert("Digite um valor numérico valido");
+    
+        } else {
+        
+        if( numero < 1 || numero > 10  ){
+            alert("Digite um valor entre 1 e 10")
+        } else {
+        
+        console.log(`Tabulada do ${numero}`); }
+        
+      while(tabuada <= 10){        
+        console.log(`${numero} x ${tabuada} = ${(numero * tabuada)}` );
+        tabuada++;     
+        }
+    }
+}
+        tabuada('2')
+}
+
+</script>
+<body>
+    
+</body>
+</html> 

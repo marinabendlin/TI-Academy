@@ -1,0 +1,9 @@
+1. Crie um algorítimo que ao carregar a página seja solicitado o nome do usuário. Em seguida a sua idade. 
+
+- O programa deverá “imprimir” na página o nome do usuário, sua idade e  
+informando se ele possui idade igual, maior ou menor de 18 anos.
+ 
+  Ex.: 
+  Nome do usuário……: Fulano
+  Idade do usuário…….: 22. Você tem idade maior que 18 anos.  
+ 

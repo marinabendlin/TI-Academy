@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 16 - querySelectorAll</title>
+</head>
+
+<script>
+window.onload = function(){
+    const ulPai = document.querySelectorAll("#ulPai");
+ 
+    ulPai.forEach(function(lista){
+       lista.addEventListener('click',function(elemento){
+            alert(elemento.target.innerHTML);
+       })     
+    })
+}
+</script>
+
+
+<style>
+    body {
+        margin: 10px;
+        padding: 5px;
+    }
+    li{   
+        width: 95%;
+        height: 50px;
+        padding: 10px; 
+        border: 1px dashed gray;  
+        margin: 10px;    
+    }
+    ul{
+        border: 1px dashed red;
+        padding: 30px;
+    }
+
+</style>
+
+
+<body>
+ 
+    <ul id="ulPai">
+       <li>ITEM_1</li>
+       <li>ITEM_2</li>
+       <li>ITEM_3</li>
+       <li>ITEM_4</li>
+       <li>ITEM_5</li>
+       <li>ITEM_6</li>
+    </ul>
+
+</body>
+</html>
+
+
+
+
+
+
